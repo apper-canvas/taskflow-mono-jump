@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { toast } from 'react-toastify'
 import MainFeature from '../components/MainFeature'
 import ApperIcon from '../components/ApperIcon'
-import abc from '../abc'
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false)
