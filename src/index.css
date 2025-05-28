@@ -89,6 +89,15 @@
     @apply neu-button p-2 rounded-xl hover:shadow-card transition-all duration-200;
   }
 
+  .dashboard-stat-card {
+    @apply bg-white dark:bg-surface-800 rounded-xl shadow-card hover:shadow-soft transition-all duration-300 border border-surface-100 dark:border-surface-700;
+  }
+  
+  .dashboard-chart-card {
+    @apply bg-white dark:bg-surface-800 rounded-xl shadow-card border border-surface-100 dark:border-surface-700;
+  }
+
+
 }
 
 @layer utilities {
